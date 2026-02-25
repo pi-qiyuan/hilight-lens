@@ -1,0 +1,18 @@
+{
+  "appName": { "message": "Hilight Lens" },
+  "appDesc": { "message": "A powerful browser extension to define and highlight keywords across any website instantly. Customize colors, use presets, and mark important info with a right-click." },
+  "keywordPlaceholder": { "message": "Enter keyword..." },
+  "addButton": { "message": "Confirm Add" },
+  "deleteButton": { "message": "Delete" },
+  "bgColorLabel": { "message": "Background" },
+  "fgColorLabel": { "message": "Text Color" },
+  "presetsLabel": { "message": "Advanced Options" },
+  "selectColorSchemeLabel": { "message": "Select Color Scheme" },
+  "customLabel": { "message": "Custom color" },
+  "addNewLabel": { "message": "Add New Keyword" },
+  "emptyKeywordError": { "message": "Please enter a keyword!" },
+  "previewLabel": { "message": "Preview:" },
+  "contextMenuHighlight": { "message": "Highlight \"%s\"" },
+  "moreToolsLabel": { "message": "More Tools" },
+  "buyMeACoffeeLabel": { "message": "❤️ Buy me a coffee" }
+}

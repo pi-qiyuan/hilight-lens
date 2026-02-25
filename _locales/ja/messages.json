@@ -1,0 +1,18 @@
+{
+  "appName": { "message": "ハイライト読書アシスタント" },
+  "appDesc": { "message": "効率的なウェブサイトキーワードハイライトツール。カスタムカラー、プリセット配色、右クリックでのクイック追加をサポートし、あらゆるウェブページで重要な情報を瞬時に特定できます。" },
+  "keywordPlaceholder": { "message": "キーワードを入力..." },
+  "addButton": { "message": "追加を確定" },
+  "deleteButton": { "message": "削除" },
+  "bgColorLabel": { "message": "背景色" },
+  "fgColorLabel": { "message": "文字色" },
+  "presetsLabel": { "message": "詳細設定" },
+  "selectColorSchemeLabel": { "message": "配色を選択" },
+  "customLabel": { "message": "カスタム配色" },
+  "addNewLabel": { "message": "キーワードを追加" },
+  "emptyKeywordError": { "message": "キーワードを入力してください！" },
+  "previewLabel": { "message": "プレビュー：" },
+  "contextMenuHighlight": { "message": "\"%s\" をハイライト表示" },
+  "moreToolsLabel": { "message": "その他のツール" },
+  "buyMeACoffeeLabel": { "message": "❤️ コーヒーを奢る" }
+}

@@ -1,0 +1,18 @@
+{
+  "appName": { "message": "高亮阅读助手" },
+  "appDesc": { "message": "一款高效的网页关键词高亮工具。支持自定义颜色、预设配色及右键快速添加，助您在任何网页中瞬间锁定关键信息。" },
+  "keywordPlaceholder": { "message": "输入关键词..." },
+  "addButton": { "message": "确认添加" },
+  "deleteButton": { "message": "删除" },
+  "bgColorLabel": { "message": "背景颜色" },
+  "fgColorLabel": { "message": "文字颜色" },
+  "presetsLabel": { "message": "高级选项" },
+  "selectColorSchemeLabel": { "message": "选择配色" },
+  "customLabel": { "message": "自定义配色" },
+  "addNewLabel": { "message": "添加新关键词" },
+  "emptyKeywordError": { "message": "请输入关键词！" },
+  "previewLabel": { "message": "预览效果：" },
+  "contextMenuHighlight": { "message": "高亮显示 \"%s\"" },
+  "moreToolsLabel": { "message": "更多工具" },
+  "buyMeACoffeeLabel": { "message": "❤️ 请我喝杯咖啡" }
+}

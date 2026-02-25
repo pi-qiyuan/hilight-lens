@@ -1,0 +1,18 @@
+{
+  "appName": { "message": "Highlight-Lupe" },
+  "appDesc": { "message": "Eine leistungsstarke Browser-Erweiterung, um Schlüsselwörter auf jeder Website sofort zu definieren und hervorzuheben. Passen Sie Farben an, verwenden Sie Voreinstellungen und markieren Sie wichtige Informationen mit einem Rechtsklick." },
+  "keywordPlaceholder": { "message": "Schlüsselwort eingeben..." },
+  "addButton": { "message": "Hinzufügen bestätigen" },
+  "deleteButton": { "message": "Löschen" },
+  "bgColorLabel": { "message": "Hintergrund" },
+  "fgColorLabel": { "message": "Textfarbe" },
+  "presetsLabel": { "message": "Erweiterte Optionen" },
+  "selectColorSchemeLabel": { "message": "Farbschema auswählen" },
+  "customLabel": { "message": "Benutzerdefinierte Farbe" },
+  "addNewLabel": { "message": "Neues Schlüsselwort hinzufügen" },
+  "emptyKeywordError": { "message": "Bitte geben Sie ein Schlüsselwort ein!" },
+  "previewLabel": { "message": "Vorschau:" },
+  "contextMenuHighlight": { "message": "\"%s\" hervorheben" },
+  "moreToolsLabel": { "message": "Mehr Tools" },
+  "buyMeACoffeeLabel": { "message": "❤️ Kauf mir einen Kaffee" }
+}

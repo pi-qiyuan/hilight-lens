@@ -1,0 +1,18 @@
+{
+  "appName": { "message": "하이라이트 독서 도우미" },
+  "appDesc": { "message": "효율적인 웹사이트 키워드 하이라이트 도구입니다. 사용자 정의 색상, 프리셋 배색 및 우클릭 빠른 추가를 지원하여 모든 웹페이지에서 핵심 정보를 즉시 찾을 수 있도록 도와줍니다." },
+  "keywordPlaceholder": { "message": "키워드 입력..." },
+  "addButton": { "message": "추가 확인" },
+  "deleteButton": { "message": "삭제" },
+  "bgColorLabel": { "message": "배경 색상" },
+  "fgColorLabel": { "message": "글자 색상" },
+  "presetsLabel": { "message": "고급 옵션" },
+  "selectColorSchemeLabel": { "message": "배색 선택" },
+  "customLabel": { "message": "사용자 정의 배색" },
+  "addNewLabel": { "message": "새 키워드 추가" },
+  "emptyKeywordError": { "message": "키워드를 입력해 주세요!" },
+  "previewLabel": { "message": "미리보기:" },
+  "contextMenuHighlight": { "message": "\"%s\" 하이라이트 표시" },
+  "moreToolsLabel": { "message": "추가 도구" },
+  "buyMeACoffeeLabel": { "message": "❤️ 커피 한 잔 사주기" }
+}
