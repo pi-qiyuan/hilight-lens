@@ -1,6 +1,6 @@
 {
   "appName": { "message": "Highlight-Lupe" },
-  "appDesc": { "message": "Eine leistungsstarke Browser-Erweiterung, um Schlüsselwörter auf jeder Website sofort zu definieren und hervorzuheben. Passen Sie Farben an, verwenden Sie Voreinstellungen und markieren Sie wichtige Informationen mit einem Rechtsklick." },
+  "appDesc": { "message": "Schlüsselwörter auf jeder Website sofort hervorheben. Farben anpassen, Voreinstellungen nutzen und Wichtiges per Rechtsklick markieren." },
   "keywordPlaceholder": { "message": "Schlüsselwort eingeben..." },
   "addButton": { "message": "Hinzufügen bestätigen" },
   "deleteButton": { "message": "Löschen" },

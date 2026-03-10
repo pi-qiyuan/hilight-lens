@@ -1,6 +1,6 @@
 {
   "appName": { "message": "Loupe de Surlignage" },
-  "appDesc": { "message": "Une extension de navigateur puissante pour définir et surligner instantanément des mots-clés sur n'importe quel site web. Personnalisez les couleurs, utilisez des préréglages et marquez les informations importantes d'un clic droit." },
+  "appDesc": { "message": "Surlignez des mots-clés sur tout site. Personnalisez les couleurs, utilisez des préréglages et marquez l'important d'un clic droit." },
   "keywordPlaceholder": { "message": "Entrez le mot-clé..." },
   "addButton": { "message": "Confirmer l'ajout" },
   "deleteButton": { "message": "Supprimer" },

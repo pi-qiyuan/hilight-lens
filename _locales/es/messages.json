@@ -1,6 +1,6 @@
 {
   "appName": { "message": "Lupa de Resaltado" },
-  "appDesc": { "message": "Una potente extensión de navegador para definir y resaltar palabras clave en cualquier sitio web de forma instantánea. Personaliza colores, utiliza ajustes preestablecidos y marca información importante con un clic derecho." },
+  "appDesc": { "message": "Resalta palabras clave en cualquier web al instante. Personaliza colores, usa ajustes y marca lo importante con un clic derecho." },
   "keywordPlaceholder": { "message": "Ingrese palabra clave..." },
   "addButton": { "message": "Confirmar adición" },
   "deleteButton": { "message": "Eliminar" },

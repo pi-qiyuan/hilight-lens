@@ -41,7 +41,7 @@ Built with the latest standards for ultimate performance and stability:
 - ✅ **Multilingual**: Interface available in English, 中文, 日本語, 한국어, Deutsch, Français, and Español.
 
 ### Installation
-[Download on Chrome Web Store](https://chromewebstore.google.com/detail/special-character-picker/ejofkafmbaaipjkegidfegeilldhcacm)
+[Download on Chrome Web Store](https://chromewebstore.google.com/detail/hilight-lens/oihedepnomkjigefdiakfikpncbccimj)
 
 ### 📖 QUICK START
 -----------------------------------
