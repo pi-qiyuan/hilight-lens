@@ -31,6 +31,14 @@ Built with the latest standards for ultimate performance and stability:
 
 - ✨ **Millisecond Auto-Highlight**: Uses advanced algorithms to detect dynamically loaded content without slowing down your browser.
 
+### 🎉 NEW IN v1.1.0: KEYWORD VISIBILITY & GROUPING
+-----------------------------------
+Manage your highlights with more flexibility and focus:
+
+- ✨ **HIDE/SHOW KEYWORDS**: Temporarily toggle specific keywords on and off without deleting them. Perfect for decluttering your view.
+
+- ✨ **KEYWORD GROUPING**: Organize keywords into custom groups. Switch between different reading contexts by activating only one group at a time.
+
 ### 🛠️ KEY FEATURES
 -----------------------------------
 - ✅ **Multi-Keyword Management**: Build a clear visual map with multiple terms and non-interfering colors.

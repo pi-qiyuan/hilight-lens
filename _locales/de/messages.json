@@ -4,6 +4,8 @@
   "keywordPlaceholder": { "message": "Schlüsselwort eingeben..." },
   "addButton": { "message": "Hinzufügen bestätigen" },
   "deleteButton": { "message": "Löschen" },
+  "hideLabel": { "message": "Ausblenden" },
+  "showLabel": { "message": "Einblenden" },
   "bgColorLabel": { "message": "Hintergrund" },
   "fgColorLabel": { "message": "Textfarbe" },
   "presetsLabel": { "message": "Erweiterte Optionen" },
@@ -14,5 +16,17 @@
   "previewLabel": { "message": "Vorschau:" },
   "contextMenuHighlight": { "message": "\"%s\" hervorheben" },
   "moreToolsLabel": { "message": "Mehr Tools" },
-  "buyMeACoffeeLabel": { "message": "❤️ Kauf mir einen Kaffee" }
+  "buyMeACoffeeLabel": { "message": "❤️ Kauf mir einen Kaffee" },
+  "defaultGroupName": { "message": "Standardgruppe" },
+  "targetGroupLabel": { "message": "Zielgruppe" },
+  "newGroupPlaceholder": { "message": "Neuer Gruppenname..." },
+  "deleteGroupConfirm": { "message": "Sind Sie sicher, dass Sie die Gruppe \"%s\" und alle darin enthaltenen Schlüsselwörter löschen möchten?" },
+  "milestone_5_text": { "message": "Du hast 5 Schlüsselwörter hinzugefügt! Hilft dir die Highlight-Lupe?" },
+  "milestone_5_action": { "message": "Im Web Store bewerten ⭐" },
+  "milestone_15_text": { "message": "15 Schlüsselwörter erreicht! Unterstütze den Entwickler." },
+  "milestone_15_action": { "message": "Kauf mir einen Kaffee ☕" },
+  "milestone_30_text": { "message": "Du verwaltest bereits 30 Schlüsselwörter! Macht es das Lesen einfacher?" },
+  "milestone_30_action": { "message": "Den Entwickler unterstützen ☕" },
+  "milestone_100_text": { "message": "Wow! 100 Schlüsselwörter! Du bist ein Super-User!" },
+  "milestone_100_action": { "message": "Sponsor werden ☕" }
 }

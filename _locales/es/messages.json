@@ -4,6 +4,8 @@
   "keywordPlaceholder": { "message": "Ingrese palabra clave..." },
   "addButton": { "message": "Confirmar adición" },
   "deleteButton": { "message": "Eliminar" },
+  "hideLabel": { "message": "Ocultar" },
+  "showLabel": { "message": "Mostrar" },
   "bgColorLabel": { "message": "Fondo" },
   "fgColorLabel": { "message": "Color de texto" },
   "presetsLabel": { "message": "Opciones avanzadas" },
@@ -14,5 +16,17 @@
   "previewLabel": { "message": "Vista previa:" },
   "contextMenuHighlight": { "message": "Resaltar \"%s\"" },
   "moreToolsLabel": { "message": "Más herramientas" },
-  "buyMeACoffeeLabel": { "message": "❤️ Invítame a un café" }
+  "buyMeACoffeeLabel": { "message": "❤️ Invítame a un café" },
+  "defaultGroupName": { "message": "Grupo predeterminado" },
+  "targetGroupLabel": { "message": "Grupo objetivo" },
+  "newGroupPlaceholder": { "message": "Nuevo nombre del grupo..." },
+  "deleteGroupConfirm": { "message": "¿Está seguro de que desea eliminar el grupo \"%s\" y todas sus palabras clave?" },
+  "milestone_5_text": { "message": "¡Has añadido 5 palabras clave! ¿Te está ayudando la Lupa de Resaltado?" },
+  "milestone_5_action": { "message": "Calificar en la Web Store ⭐" },
+  "milestone_15_text": { "message": "¡15 palabras clave! Considera apoyar al desarrollador." },
+  "milestone_15_action": { "message": "Invítame a un café ☕" },
+  "milestone_30_text": { "message": "¡Ya gestionas 30 palabras clave! ¿Te facilita la lectura?" },
+  "milestone_30_action": { "message": "Apoyar al desarrollador ☕" },
+  "milestone_100_text": { "message": "¡Vaya! ¡100 palabras clave! ¡Eres un súper usuario!" },
+  "milestone_100_action": { "message": "Ser patrocinador ☕" }
 }

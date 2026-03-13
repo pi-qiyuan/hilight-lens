@@ -4,6 +4,8 @@
   "keywordPlaceholder": { "message": "Enter keyword..." },
   "addButton": { "message": "Confirm Add" },
   "deleteButton": { "message": "Delete" },
+  "hideLabel": { "message": "Hide" },
+  "showLabel": { "message": "Show" },
   "bgColorLabel": { "message": "Background" },
   "fgColorLabel": { "message": "Text Color" },
   "presetsLabel": { "message": "Advanced Options" },
@@ -14,5 +16,17 @@
   "previewLabel": { "message": "Preview:" },
   "contextMenuHighlight": { "message": "Highlight \"%s\"" },
   "moreToolsLabel": { "message": "More Tools" },
-  "buyMeACoffeeLabel": { "message": "❤️ Buy me a coffee" }
+  "buyMeACoffeeLabel": { "message": "❤️ Buy me a coffee" },
+  "defaultGroupName": { "message": "Default Group" },
+  "targetGroupLabel": { "message": "Target Group" },
+  "newGroupPlaceholder": { "message": "New group name..." },
+  "deleteGroupConfirm": { "message": "Are you sure you want to delete group \"%s\" and all its keywords?" },
+  "milestone_5_text": { "message": "You've added 5 keywords! Is Hilight Lens helping you?" },
+  "milestone_5_action": { "message": "Rate on Web Store ⭐" },
+  "milestone_15_text": { "message": "15 keywords reached! Consider supporting the developer." },
+  "milestone_15_action": { "message": "Buy me a coffee ☕" },
+  "milestone_30_text": { "message": "You've managed 30 keywords! Has Hilight Lens made reading easier?" },
+  "milestone_30_action": { "message": "Support the developer ☕" },
+  "milestone_100_text": { "message": "Wow! 100 keywords! You're a Hilight Lens super user!" },
+  "milestone_100_action": { "message": "Become a sponsor ☕" }
 }

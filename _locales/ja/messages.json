@@ -4,6 +4,8 @@
   "keywordPlaceholder": { "message": "キーワードを入力..." },
   "addButton": { "message": "追加を確定" },
   "deleteButton": { "message": "削除" },
+  "hideLabel": { "message": "非表示" },
+  "showLabel": { "message": "表示" },
   "bgColorLabel": { "message": "背景色" },
   "fgColorLabel": { "message": "文字色" },
   "presetsLabel": { "message": "詳細設定" },
@@ -14,5 +16,17 @@
   "previewLabel": { "message": "プレビュー：" },
   "contextMenuHighlight": { "message": "\"%s\" をハイライト表示" },
   "moreToolsLabel": { "message": "その他のツール" },
-  "buyMeACoffeeLabel": { "message": "❤️ コーヒーを奢る" }
+  "buyMeACoffeeLabel": { "message": "❤️ コーヒーを奢る" },
+  "defaultGroupName": { "message": "デフォルトグループ" },
+  "targetGroupLabel": { "message": "ターゲットグループ" },
+  "newGroupPlaceholder": { "message": "新しいグループ名..." },
+  "deleteGroupConfirm": { "message": "グループ \"%s\" とそこに含まれるすべてのキーワードを削除してもよろしいですか？" },
+  "milestone_5_text": { "message": "5つのキーワードを追加しました！ハイライトアシスタントは役に立っていますか？" },
+  "milestone_5_action": { "message": "ストアで評価する ⭐" },
+  "milestone_15_text": { "message": "キーワードが15個に達しました！開発者の支援をご検討ください。" },
+  "milestone_15_action": { "message": "コーヒーを奢る ☕" },
+  "milestone_30_text": { "message": "30個のキーワードを管理しています！読書は快適になりましたか？" },
+  "milestone_30_action": { "message": "開発者を支援する ☕" },
+  "milestone_100_text": { "message": "すごい！100個のキーワード！あなたはスーパーユーザーです！" },
+  "milestone_100_action": { "message": "スポンサーになる ☕" }
 }

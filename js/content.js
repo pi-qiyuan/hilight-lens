@@ -1,32 +1,61 @@
 let keywords = [];
+let groups = [];
+let currentGroupId = 'default';
 let keywordsRegex = null;
 
-// Load keywords from storage
-chrome.storage.local.get({ keywords: [] }, (result) => {
+// Load keywords and group state from storage
+chrome.storage.local.get({ 
+  keywords: [], 
+  groups: [{ id: 'default', name: 'Default' }], 
+  currentGroupId: 'default' 
+}, (result) => {
+  groups = result.groups;
+  currentGroupId = result.currentGroupId;
   updateKeywords(result.keywords);
   start();
 });
 
 // Listen for storage changes
 chrome.storage.onChanged.addListener((changes, namespace) => {
-  if (namespace === 'local' && changes.keywords) {
-    updateKeywords(changes.keywords.newValue || []);
-    clearHighlights();
-    highlightAll();
+  if (namespace === 'local') {
+    let shouldUpdate = false;
+    
+    if (changes.keywords) {
+      keywords = changes.keywords.newValue || [];
+      shouldUpdate = true;
+    }
+    
+    if (changes.currentGroupId) {
+      currentGroupId = changes.currentGroupId.newValue;
+      shouldUpdate = true;
+    }
+
+    if (shouldUpdate) {
+      updateKeywords(keywords);
+      clearHighlights();
+      highlightAll();
+    }
   }
 });
 
 /**
  * Updates the local keywords list and pre-compiles a single regex for performance.
+ * Only includes keywords from the currently active group.
  */
-function updateKeywords(newKeywords) {
-  keywords = newKeywords;
-  if (keywords.length === 0) {
+function updateKeywords(allKeywords) {
+  keywords = allKeywords;
+  
+  // Only highlight keywords in the current group and that are enabled
+  const activeKeywords = keywords.filter(k => 
+    k.groupId === currentGroupId && k.enabled !== false
+  );
+  
+  if (activeKeywords.length === 0) {
     keywordsRegex = null;
     return;
   }
   // Sort by length descending to ensure "Apple" is matched before "App"
-  const sortedTexts = [...keywords]
+  const sortedTexts = [...activeKeywords]
     .map(k => escapeRegExp(k.text))
     .sort((a, b) => b.length - a.length);
   

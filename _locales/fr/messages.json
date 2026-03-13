@@ -4,6 +4,8 @@
   "keywordPlaceholder": { "message": "Entrez le mot-clé..." },
   "addButton": { "message": "Confirmer l'ajout" },
   "deleteButton": { "message": "Supprimer" },
+  "hideLabel": { "message": "Masquer" },
+  "showLabel": { "message": "Afficher" },
   "bgColorLabel": { "message": "Arrière-plan" },
   "fgColorLabel": { "message": "Couleur du texte" },
   "presetsLabel": { "message": "Options avancées" },
@@ -14,5 +16,17 @@
   "previewLabel": { "message": "Aperçu :" },
   "contextMenuHighlight": { "message": "Surligner \"%s\"" },
   "moreToolsLabel": { "message": "Plus d'outils" },
-  "buyMeACoffeeLabel": { "message": "❤️ Offrez-moi un café" }
+  "buyMeACoffeeLabel": { "message": "❤️ Offrez-moi un café" },
+  "defaultGroupName": { "message": "Groupe par défaut" },
+  "targetGroupLabel": { "message": "Groupe cible" },
+  "newGroupPlaceholder": { "message": "Nouveau nom de groupe..." },
+  "deleteGroupConfirm": { "message": "Êtes-vous sûr de vouloir supprimer le groupe \"%s\" et tous ses mots-clés ?" },
+  "milestone_5_text": { "message": "5 mots-clés ajoutés ! La Loupe de Surlignage vous est-elle utile ?" },
+  "milestone_5_action": { "message": "Noter sur le Web Store ⭐" },
+  "milestone_15_text": { "message": "15 mots-clés atteints ! Soutenez le développeur." },
+  "milestone_15_action": { "message": "Offrez-moi un café ☕" },
+  "milestone_30_text": { "message": "30 mots-clés gérés ! Cela facilite-t-il votre lecture ?" },
+  "milestone_30_action": { "message": "Soutenir le développeur ☕" },
+  "milestone_100_text": { "message": "Wow ! 100 mots-clés ! Vous êtes un super utilisateur !" },
+  "milestone_100_action": { "message": "Devenir sponsor ☕" }
 }
