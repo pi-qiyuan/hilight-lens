@@ -476,6 +476,31 @@ li.disabled {
   background-color: #fff0f0;
 }
 
+.import-export-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 0 5px;
+}
+.text-btn {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex: 1;
+  text-align: center;
+}
+.text-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
 /* Footer Styles */
 .footer {
   margin-top: 20px;

@@ -16,7 +16,7 @@
   "previewLabel": { "message": "预览：" },
   "contextMenuHighlight": { "message": "高亮 \"%s\"" },
   "moreToolsLabel": { "message": "更多工具" },
-  "buyMeACoffeeLabel": { "message": "❤️ 请喝杯咖啡" },
+  "buyMeACoffeeLabel": { "message": "❤️ 请作者喝杯咖啡" },
   "defaultGroupName": { "message": "默认分组" },
   "targetGroupLabel": { "message": "目标分组" },
   "newGroupPlaceholder": { "message": "输入分组名..." },
@@ -28,6 +28,13 @@
   "milestone_30_text": { "message": "你已经管理了 30 个关键词，高亮助手让阅读变轻松了吗？" },
   "milestone_30_action": { "message": "支持一下开发者 ☕" },
   "milestone_100_text": { "message": "哇！100 个关键词！你是高亮助手的超级粉丝！" },
-  "milestone_100_action": { "message": "成为赞助人 ☕" }
+  "milestone_100_action": { "message": "成为赞助人 ☕" },
+  "importButton": { "message": "导入" },
+  "exportButton": { "message": "导出" },
+  "importConfirm": { "message": "导入将覆盖所有现有的关键词和分组。您确定要继续吗？" },
+  "importSuccess": { "message": "导入成功！" },
+  "importError": { "message": "导入失败。请确保文件格式正确。您可以尝试先导出以查看预期格式。" },
+  "exportHeader": { "message": "# 高亮阅读助手 关键词数据导出\n# 格式: 关键词 | 背景颜色 | 文字颜色 | 是否启用 | 分组名称\n# 您可以手动编辑此文件。每一行代表一个关键词。\n# 以 # 开头的行是注释。\n" },
+  "exportFooter": { "message": "# 由 [$1] 导出于 $2" }
 }
 

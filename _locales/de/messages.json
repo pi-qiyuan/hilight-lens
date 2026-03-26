@@ -16,7 +16,7 @@
   "previewLabel": { "message": "Vorschau:" },
   "contextMenuHighlight": { "message": "\"%s\" hervorheben" },
   "moreToolsLabel": { "message": "Mehr Tools" },
-  "buyMeACoffeeLabel": { "message": "❤️ Kauf mir einen Kaffee" },
+  "buyMeACoffeeLabel": { "message": "❤️ Kauf dem Autor einen Kaffee" },
   "defaultGroupName": { "message": "Standardgruppe" },
   "targetGroupLabel": { "message": "Zielgruppe" },
   "newGroupPlaceholder": { "message": "Neuer Gruppenname..." },
@@ -28,5 +28,12 @@
   "milestone_30_text": { "message": "Du verwaltest bereits 30 Schlüsselwörter! Macht es das Lesen einfacher?" },
   "milestone_30_action": { "message": "Den Entwickler unterstützen ☕" },
   "milestone_100_text": { "message": "Wow! 100 Schlüsselwörter! Du bist ein Super-User!" },
-  "milestone_100_action": { "message": "Sponsor werden ☕" }
+  "milestone_100_action": { "message": "Sponsor werden ☕" },
+  "importButton": { "message": "Importieren" },
+  "exportButton": { "message": "Exportieren" },
+  "importConfirm": { "message": "Beim Importieren werden alle vorhandenen Schlüsselwörter und Gruppen überschrieben. Möchten Sie wirklich fortfahren?" },
+  "importSuccess": { "message": "Import erfolgreich!" },
+  "importError": { "message": "Import fehlgeschlagen. Bitte stellen Sie sicher, dass das Dateiformat korrekt ist. Sie können versuchen, zuerst zu exportieren, um das erwartete Format zu sehen." },
+  "exportHeader": { "message": "# Highlight-Lupe Schlüsselwortdaten-Export\n# Format: Schlüsselwort | Hintergrundfarbe | Textfarbe | Aktiviert | Gruppenname\n# Sie können diese Datei manuell bearbeiten. Jede Zeile steht für ein Schlüsselwort.\n# Zeilen, die mit # beginnen, sind Kommentare.\n" },
+  "exportFooter": { "message": "# Exportiert von [$1] am $2" }
 }

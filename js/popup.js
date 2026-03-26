@@ -385,4 +385,62 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     chrome.tabs.create({ url: 'https://ko-fi.com/qiyuanyang' });
   });
+
+  // Export functionality
+  const exportBtn = document.getElementById('export-btn');
+  if (exportBtn) {
+    exportBtn.addEventListener('click', () => {
+      chrome.runtime.sendMessage({ action: 'exportData' }, (response) => {
+        if (response && response.success) {
+          const blob = new Blob([response.content], { type: 'text/plain' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          const now = new Date();
+          const timestamp = now.getFullYear() + 
+                            String(now.getMonth() + 1).padStart(2, '0') + 
+                            String(now.getDate()).padStart(2, '0') + 
+                            String(now.getHours()).padStart(2, '0') + 
+                            String(now.getMinutes()).padStart(2, '0') + 
+                            String(now.getSeconds()).padStart(2, '0');
+          a.download = `hilight-lens-export-${timestamp}.txt`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }
+      });
+    });
+  }
+
+  // Import functionality
+  const importBtn = document.getElementById('import-btn');
+  const importFile = document.getElementById('import-file');
+  if (importBtn && importFile) {
+    importBtn.addEventListener('click', () => {
+      if (confirm(chrome.i18n.getMessage('importConfirm'))) {
+        importFile.click();
+      }
+    });
+
+    importFile.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        const content = event.target.result;
+        chrome.runtime.sendMessage({ action: 'importData', content }, (response) => {
+          if (response && response.success) {
+            alert(chrome.i18n.getMessage('importSuccess'));
+            location.reload(); 
+          } else {
+            alert(chrome.i18n.getMessage('importError'));
+          }
+          importFile.value = '';
+        });
+      };
+      reader.readAsText(file);
+    });
+  }
 });

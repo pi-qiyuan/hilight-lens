@@ -16,7 +16,7 @@
   "previewLabel": { "message": "プレビュー：" },
   "contextMenuHighlight": { "message": "\"%s\" をハイライト表示" },
   "moreToolsLabel": { "message": "その他のツール" },
-  "buyMeACoffeeLabel": { "message": "❤️ コーヒーを奢る" },
+  "buyMeACoffeeLabel": { "message": "❤️ 作者にコーヒーを奢る" },
   "defaultGroupName": { "message": "デフォルトグループ" },
   "targetGroupLabel": { "message": "ターゲットグループ" },
   "newGroupPlaceholder": { "message": "新しいグループ名..." },
@@ -28,5 +28,12 @@
   "milestone_30_text": { "message": "30個のキーワードを管理しています！読書は快適になりましたか？" },
   "milestone_30_action": { "message": "開発者を支援する ☕" },
   "milestone_100_text": { "message": "すごい！100個のキーワード！あなたはスーパーユーザーです！" },
-  "milestone_100_action": { "message": "スポンサーになる ☕" }
+  "milestone_100_action": { "message": "スポンサーになる ☕" },
+  "importButton": { "message": "インポート" },
+  "exportButton": { "message": "エクスポート" },
+  "importConfirm": { "message": "インポートすると、既存のすべてのキーワードとグループが上書きされます。続行してもよろしいですか？" },
+  "importSuccess": { "message": "インポートに成功しました！" },
+  "importError": { "message": "インポートに失敗しました。ファイル形式が正しいか確認してください。先にエクスポートして形式を確認することをお勧めします。" },
+  "exportHeader": { "message": "# ハイライト読書アシスタント キーワードデータエクスポート\n# 形式: キーワード | 背景色 | 文字色 | 有効 | グループ名\n# このファイルは手動で編集できます。各行が1つのキーワードを表します。\n# # で始まる行はコメントです。\n" },
+  "exportFooter": { "message": "# [$1] により $2 にエクスポートされました" }
 }

@@ -16,7 +16,7 @@
   "previewLabel": { "message": "Aperçu :" },
   "contextMenuHighlight": { "message": "Surligner \"%s\"" },
   "moreToolsLabel": { "message": "Plus d'outils" },
-  "buyMeACoffeeLabel": { "message": "❤️ Offrez-moi un café" },
+  "buyMeACoffeeLabel": { "message": "❤️ Offrez un café à l'auteur" },
   "defaultGroupName": { "message": "Groupe par défaut" },
   "targetGroupLabel": { "message": "Groupe cible" },
   "newGroupPlaceholder": { "message": "Nouveau nom de groupe..." },
@@ -28,5 +28,12 @@
   "milestone_30_text": { "message": "30 mots-clés gérés ! Cela facilite-t-il votre lecture ?" },
   "milestone_30_action": { "message": "Soutenir le développeur ☕" },
   "milestone_100_text": { "message": "Wow ! 100 mots-clés ! Vous êtes un super utilisateur !" },
-  "milestone_100_action": { "message": "Devenir sponsor ☕" }
+  "milestone_100_action": { "message": "Devenir sponsor ☕" },
+  "importButton": { "message": "Importer" },
+  "exportButton": { "message": "Exporter" },
+  "importConfirm": { "message": "L'importation écrasera tous les mots-clés et groupes existants. Êtes-vous sûr de vouloir continuer ?" },
+  "importSuccess": { "message": "Importation réussie !" },
+  "importError": { "message": "Échec de l'importation. Veuillez vous assurer que le format du fichier est correct. Vous pouvez essayer d'exporter d'abord pour voir le format attendu." },
+  "exportHeader": { "message": "# Exportation des données de mots-clés Loupe de Surlignage\n# Format : Mot-clé | Couleur d'arrière-plan | Couleur du texte | Activé | Nom du groupe\n# Vous pouvez modifier ce fichier manuellement. Chaque ligne représente un mot-clé.\n# Les lignes commençant par # sont des commentaires.\n" },
+  "exportFooter": { "message": "# Exporté par [$1] le $2" }
 }

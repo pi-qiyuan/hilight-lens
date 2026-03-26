@@ -16,7 +16,7 @@
   "previewLabel": { "message": "Preview:" },
   "contextMenuHighlight": { "message": "Highlight \"%s\"" },
   "moreToolsLabel": { "message": "More Tools" },
-  "buyMeACoffeeLabel": { "message": "❤️ Buy me a coffee" },
+  "buyMeACoffeeLabel": { "message": "❤️ Buy the author a coffee" },
   "defaultGroupName": { "message": "Default Group" },
   "targetGroupLabel": { "message": "Target Group" },
   "newGroupPlaceholder": { "message": "New group name..." },
@@ -28,5 +28,12 @@
   "milestone_30_text": { "message": "You've managed 30 keywords! Has Hilight Lens made reading easier?" },
   "milestone_30_action": { "message": "Support the developer ☕" },
   "milestone_100_text": { "message": "Wow! 100 keywords! You're a Hilight Lens super user!" },
-  "milestone_100_action": { "message": "Become a sponsor ☕" }
+  "milestone_100_action": { "message": "Become a sponsor ☕" },
+  "importButton": { "message": "Import" },
+  "exportButton": { "message": "Export" },
+  "importConfirm": { "message": "Importing will overwrite all existing keywords and groups. Are you sure you want to continue?" },
+  "importSuccess": { "message": "Import successful!" },
+  "importError": { "message": "Import failed. Please make sure the file format is correct. You can try exporting first to see the expected format." },
+  "exportHeader": { "message": "# Hilight Lens Keyword Data Export\n# Format: Keyword | BackgroundColor | TextColor | Enabled | GroupName\n# You can manually edit this file. Each line represents one keyword.\n# Lines starting with # are comments.\n" },
+  "exportFooter": { "message": "# Exported by [$1] at $2" }
 }

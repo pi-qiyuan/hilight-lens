@@ -16,7 +16,7 @@
   "previewLabel": { "message": "Vista previa:" },
   "contextMenuHighlight": { "message": "Resaltar \"%s\"" },
   "moreToolsLabel": { "message": "Más herramientas" },
-  "buyMeACoffeeLabel": { "message": "❤️ Invítame a un café" },
+  "buyMeACoffeeLabel": { "message": "❤️ Invita al autor a un café" },
   "defaultGroupName": { "message": "Grupo predeterminado" },
   "targetGroupLabel": { "message": "Grupo objetivo" },
   "newGroupPlaceholder": { "message": "Nuevo nombre del grupo..." },
@@ -28,5 +28,12 @@
   "milestone_30_text": { "message": "¡Ya gestionas 30 palabras clave! ¿Te facilita la lectura?" },
   "milestone_30_action": { "message": "Apoyar al desarrollador ☕" },
   "milestone_100_text": { "message": "¡Vaya! ¡100 palabras clave! ¡Eres un súper usuario!" },
-  "milestone_100_action": { "message": "Ser patrocinador ☕" }
+  "milestone_100_action": { "message": "Ser patrocinador ☕" },
+  "importButton": { "message": "Importar" },
+  "exportButton": { "message": "Exportar" },
+  "importConfirm": { "message": "La importación sobrescribirá todas las palabras clave y grupos existentes. ¿Seguro que quieres continuar?" },
+  "importSuccess": { "message": "¡Importación exitosa!" },
+  "importError": { "message": "Error al importar. Asegúrate de que el formato del archivo sea correcto. Puedes intentar exportar primero para ver el formato esperado." },
+  "exportHeader": { "message": "# Exportación de datos de palabras clave de Lupa de Resaltado\n# Formato: Palabra clave | Color de fondo | Color de texto | Habilitado | Nombre del grupo\n# Puedes editar este archivo manualmente. Cada línea representa una palabra clave.\n# Las líneas que comienzan con # son comentarios.\n" },
+  "exportFooter": { "message": "# Exportado por [$1] el $2" }
 }

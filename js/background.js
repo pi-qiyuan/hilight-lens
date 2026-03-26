@@ -46,5 +46,15 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       sendResponse({ success: true });
     });
     return true;
+  } else if (request.action === 'exportData') {
+    Store.exportData().then(content => {
+      sendResponse({ success: true, content });
+    });
+    return true;
+  } else if (request.action === 'importData') {
+    Store.importData(request.content).then(success => {
+      sendResponse({ success });
+    });
+    return true;
   }
 });
