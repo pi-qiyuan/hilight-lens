@@ -31,16 +31,20 @@ Built with the latest standards for ultimate performance and stability:
 
 - ✨ **Millisecond Auto-Highlight**: Uses advanced algorithms to detect dynamically loaded content without slowing down your browser.
 
-### 🎉 NEW IN v1.1.0: KEYWORD VISIBILITY & GROUPING
+🎉 NEW IN v1.2.0: DATA BACKUP & SHARING (IMPORT/EXPORT)
 -----------------------------------
-Manage your highlights with more flexibility and focus:
+Manage your keyword library across devices and keep your knowledge assets forever:
 
-- ✨ **HIDE/SHOW KEYWORDS**: Temporarily toggle specific keywords on and off without deleting them. Perfect for decluttering your view.
+- ✨ **Plain Text Import/Export**: Export all keywords, color configurations, and grouping info as plain text for easy manual editing or sharing.
 
-- ✨ **KEYWORD GROUPING**: Organize keywords into custom groups. Switch between different reading contexts by activating only one group at a time.
+- ✨ **Fast Data Migration**: Restore your personalized setup instantly with one-click imports, supporting cross-device synchronization.
+
+- ✨ **Intelligent Metadata**: Exported files include built-in format guides and footers with product info and timestamps for better file management.
 
 ### 🛠️ KEY FEATURES
 -----------------------------------
+- ✅ **Keyword Grouping**: Organize keywords into custom groups. Switch between different reading contexts by activating only one group at a time.
+- ✅ **Hide/Show Keywords**: Temporarily toggle specific keywords on and off without deleting them.
 - ✅ **Multi-Keyword Management**: Build a clear visual map with multiple terms and non-interfering colors.
 - ✅ **Context Menu**: Select any text and right-click to instantly highlight it across the entire web.
 - ✅ **Smart Presets**: Built-in beautiful color schemes with auto-rotation, plus custom background/text colors.
@@ -70,6 +74,14 @@ Manage your highlights with more flexibility and focus:
 
 ### Changelog
 -----------------------------------
+### v1.1.0: KEYWORD VISIBILITY & GROUPING
+-----------------------------------
+Manage your highlights with more flexibility and focus:
+
+- ✨ **HIDE/SHOW KEYWORDS**: Temporarily toggle specific keywords on and off without deleting them. Perfect for decluttering your view.
+
+- ✨ **KEYWORD GROUPING**: Organize keywords into custom groups. Switch between different reading contexts by activating only one group at a time.
+
 #### v1.0.0
 - Initial release
 
