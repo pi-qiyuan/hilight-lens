@@ -271,7 +271,6 @@ const Store = {
       });
       return true;
     } catch (e) {
-      console.error('Import failed:', e);
       return false;
     }
   }
