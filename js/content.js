@@ -1,16 +1,53 @@
 let keywords = [];
 let groups = [];
 let currentGroupId = 'default';
+let ignoreAccents = false;
 let keywordsRegex = null;
+
+const ACCENT_MAP = {
+  'a': '[aàáâäæãåāAÀÁÂÄÆÃÅĀ]',
+  'c': '[cçćčCÇĆČ]',
+  'e': '[eéèêëēėęEÉÈÊËĒĖĘ]',
+  'i': '[iîïíīįìIÎÏÍĪĮÌ]',
+  'l': '[lłLŁ]',
+  'n': '[nñńNÑŃ]',
+  'o': '[oôöòóœøōõOÔÖÒÓŒØŌÕ]',
+  'r': '[rŕřRŔŘ]',
+  's': '[sśšşSŚŠŞ]',
+  't': '[tțťTȚŤ]',
+  'u': '[uûüùúūUÛÜÙÚŪ]',
+  'y': '[yÿýYŸÝ]',
+  'z': '[zžźżZŽŹŻ]'
+};
+
+function normalizeText(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+function textToAccentRegexPattern(text) {
+  const normalized = text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  let pattern = '';
+  for (const char of normalized) {
+    const lower = char.toLowerCase();
+    if (ACCENT_MAP[lower]) {
+      pattern += ACCENT_MAP[lower] + '[\\u0300-\\u036f]*';
+    } else {
+      pattern += escapeRegExp(char) + '[\\u0300-\\u036f]*';
+    }
+  }
+  return pattern;
+}
 
 // Load keywords and group state from storage
 chrome.storage.local.get({ 
   keywords: [], 
   groups: [{ id: 'default', name: 'Default' }], 
-  currentGroupId: 'default' 
+  currentGroupId: 'default',
+  ignoreAccents: false
 }, (result) => {
   groups = result.groups;
   currentGroupId = result.currentGroupId;
+  ignoreAccents = result.ignoreAccents || false;
   updateKeywords(result.keywords);
   start();
 });
@@ -27,6 +64,11 @@ chrome.storage.onChanged.addListener((changes, namespace) => {
     
     if (changes.currentGroupId) {
       currentGroupId = changes.currentGroupId.newValue;
+      shouldUpdate = true;
+    }
+
+    if (changes.ignoreAccents !== undefined) {
+      ignoreAccents = changes.ignoreAccents.newValue || false;
       shouldUpdate = true;
     }
 
@@ -54,12 +96,13 @@ function updateKeywords(allKeywords) {
     keywordsRegex = null;
     return;
   }
-  // Sort by length descending to ensure "Apple" is matched before "App"
-  const sortedTexts = [...activeKeywords]
-    .map(k => escapeRegExp(k.text))
-    .sort((a, b) => b.length - a.length);
+  // Sort by length descending to ensure longer keywords match first
+  const sortedKeywords = [...activeKeywords].sort((a, b) => b.text.length - a.text.length);
+  const patterns = sortedKeywords.map(k => 
+    ignoreAccents ? textToAccentRegexPattern(k.text) : escapeRegExp(k.text)
+  );
   
-  keywordsRegex = new RegExp(`(${sortedTexts.join('|')})`, 'gi');
+  keywordsRegex = new RegExp(`(${patterns.join('|')})`, 'gi');
 }
 
 /**
@@ -143,7 +186,12 @@ function highlightNode(node) {
 
     // Find the original keyword object to get its specific color
     const matchedText = match[0];
-    const kwConfig = keywords.find(k => k.text.toLowerCase() === matchedText.toLowerCase());
+    const kwConfig = keywords.find(k => {
+      if (ignoreAccents) {
+        return normalizeText(k.text) === normalizeText(matchedText);
+      }
+      return k.text.toLowerCase() === matchedText.toLowerCase();
+    });
     
     const span = document.createElement('span');
     span.className = 'hl-lens-mark';

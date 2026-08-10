@@ -35,5 +35,6 @@
   "importSuccess": { "message": "Import erfolgreich!" },
   "importError": { "message": "Import fehlgeschlagen. Bitte stellen Sie sicher, dass das Dateiformat korrekt ist. Sie können versuchen, zuerst zu exportieren, um das erwartete Format zu sehen." },
   "exportHeader": { "message": "# Highlight-Lupe Schlüsselwortdaten-Export\n# Format: Schlüsselwort | Hintergrundfarbe | Textfarbe | Aktiviert | Gruppenname\n# Sie können diese Datei manuell bearbeiten. Jede Zeile steht für ein Schlüsselwort.\n# Zeilen, die mit # beginnen, sind Kommentare.\n" },
-  "exportFooter": { "message": "# Exportiert von [$1] am $2" }
+  "exportFooter": { "message": "# Exportiert von [$1] am $2" },
+  "ignoreAccentsLabel": { "message": "Akzente ignorieren" }
 }

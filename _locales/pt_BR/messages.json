@@ -35,5 +35,6 @@
   "importSuccess": { "message": "Importação bem-sucedida!" },
   "importError": { "message": "Falha na importação. Certifique-se de que o formato do arquivo está correto. Você pode tentar exportar primeiro para ver o formato esperado." },
   "exportHeader": { "message": "# Exportação de Dados de Palavras-Chave do Lente de Destaque\n# Formato: Palavra-Chave | CorDeFundo | CorDoTexto | Ativado | NomeDoGrupo\n# Você pode editar este arquivo manualmente. Cada linha representa uma palavra-chave.\n# Linhas iniciadas com # são comentários.\n" },
-  "exportFooter": { "message": "# Exportado por [$1] em $2" }
+  "exportFooter": { "message": "# Exportado por [$1] em $2" },
+  "ignoreAccentsLabel": { "message": "Ignorar acentos" }
 }

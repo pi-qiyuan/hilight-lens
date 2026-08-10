@@ -35,5 +35,6 @@
   "importSuccess": { "message": "Import successful!" },
   "importError": { "message": "Import failed. Please make sure the file format is correct. You can try exporting first to see the expected format." },
   "exportHeader": { "message": "# Hilight Lens Keyword Data Export\n# Format: Keyword | BackgroundColor | TextColor | Enabled | GroupName\n# You can manually edit this file. Each line represents one keyword.\n# Lines starting with # are comments.\n" },
-  "exportFooter": { "message": "# Exported by [$1] at $2" }
+  "exportFooter": { "message": "# Exported by [$1] at $2" },
+  "ignoreAccentsLabel": { "message": "Ignore Accents" }
 }

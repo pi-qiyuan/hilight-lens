@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const newGroupNameInput = document.getElementById('new-group-name');
   const confirmAddGroupBtn = document.getElementById('confirm-add-group');
   const targetGroupSelect = document.getElementById('target-group-select');
+  const ignoreAccentsCheckbox = document.getElementById('ignore-accents-checkbox');
 
   let currentPresetIndex = 0;
   let isSchemeOpen = false;
@@ -263,10 +264,19 @@ document.addEventListener('DOMContentLoaded', () => {
       if (filteredKeywords.length === 0) toggleAddSection(true, false);
       updateActiveSwatch();
     }
+
+    ignoreAccentsCheckbox.checked = !!data.ignoreAccents;
     renderPresets();
     updatePreview();
     isInitialLoad = false;
   }
+
+  ignoreAccentsCheckbox.addEventListener('change', () => {
+    chrome.runtime.sendMessage({
+      action: 'setIgnoreAccents',
+      ignoreAccents: ignoreAccentsCheckbox.checked
+    });
+  });
 
   // Event Listeners for Groups
   groupSelector.addEventListener('change', () => {
@@ -304,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   chrome.storage.onChanged.addListener((changes) => {
-    if (changes.keywords || changes.lastState || changes.currentGroupId || changes.groups) {
+    if (changes.keywords || changes.lastState || changes.currentGroupId || changes.groups || changes.ignoreAccents) {
       loadAndRenderAll();
     }
   });

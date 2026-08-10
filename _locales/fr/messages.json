@@ -35,5 +35,6 @@
   "importSuccess": { "message": "Importation réussie !" },
   "importError": { "message": "Échec de l'importation. Veuillez vous assurer que le format du fichier est correct. Vous pouvez essayer d'exporter d'abord pour voir le format attendu." },
   "exportHeader": { "message": "# Exportation des données de mots-clés Loupe de Surlignage\n# Format : Mot-clé | Couleur d'arrière-plan | Couleur du texte | Activé | Nom du groupe\n# Vous pouvez modifier ce fichier manuellement. Chaque ligne représente un mot-clé.\n# Les lignes commençant par # sont des commentaires.\n" },
-  "exportFooter": { "message": "# Exporté par [$1] le $2" }
+  "exportFooter": { "message": "# Exporté par [$1] le $2" },
+  "ignoreAccentsLabel": { "message": "Ignorer les accents" }
 }

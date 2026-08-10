@@ -31,15 +31,13 @@ Built with the latest standards for ultimate performance and stability:
 
 - ✨ **Millisecond Auto-Highlight**: Uses advanced algorithms to detect dynamically loaded content without slowing down your browser.
 
-🎉 NEW IN v1.2.0: DATA BACKUP & SHARING (IMPORT/EXPORT)
+🎉 New in v1.3.0: Accent-Insensitive Matching
 -----------------------------------
-Manage your keyword library across devices and keep your knowledge assets forever:
+Transcending language and spelling nuances for a more intuitive and flexible highlighting experience:
 
-- ✨ **Plain Text Import/Export**: Export all keywords, color configurations, and grouping info as plain text for easy manual editing or sharing.
+- ✨ **Accent-Insensitive Matching**: Automatically recognizes and matches words containing accents or diacritics (e.g., typing "cafe" highlights "café"; typing "resume" highlights "résumé"), eliminating the need to manually manage multiple spelling variations.
 
-- ✨ **Fast Data Migration**: Restore your personalized setup instantly with one-click imports, supporting cross-device synchronization.
-
-- ✨ **Intelligent Metadata**: Exported files include built-in format guides and footers with product info and timestamps for better file management.
+- ✨ **Smart Toggle**: A new "Ignore Accents" toggle has been added to the advanced settings (disabled by default), balancing the need for precise matching with the flexibility of broader searches.
 
 ### 🛠️ KEY FEATURES
 -----------------------------------
@@ -73,6 +71,18 @@ Manage your keyword library across devices and keep your knowledge assets foreve
 - Styling: CSS3
 
 ### Changelog
+-----------------------------------
+### v1.2.0: DATA BACKUP & SHARING (IMPORT/EXPORT)
+-----------------------------------
+Manage your keyword library across devices and keep your knowledge assets forever:
+
+- ✨ **Plain Text Import/Export**: Export all keywords, color configurations, and grouping info as plain text for easy manual editing or sharing.
+
+- ✨ **Fast Data Migration**: Restore your personalized setup instantly with one-click imports, supporting cross-device synchronization.
+
+- ✨ **Intelligent Metadata**: Exported files include built-in format guides and footers with product info and timestamps for better file management.
+
+
 -----------------------------------
 ### v1.1.0: KEYWORD VISIBILITY & GROUPING
 -----------------------------------

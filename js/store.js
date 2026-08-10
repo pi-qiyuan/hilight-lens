@@ -10,7 +10,8 @@ const Store = {
         currentGroupId: null,
         lastState: null,
         stats: { totalAdded: 0 },
-        milestones: { lastShown: 0 }
+        milestones: { lastShown: 0 },
+        ignoreAccents: false
       }, (data) => {
         let needsUpdate = false;
 
@@ -49,6 +50,11 @@ const Store = {
     return new Promise((resolve) => {
       chrome.storage.local.set(data, resolve);
     });
+  },
+
+  // 设置是否忽略重音
+  async setIgnoreAccents(ignoreAccents) {
+    await this.saveData({ ignoreAccents });
   },
 
   // 创建新分组

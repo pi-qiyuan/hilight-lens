@@ -56,5 +56,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       sendResponse({ success });
     });
     return true;
+  } else if (request.action === 'setIgnoreAccents') {
+    Store.setIgnoreAccents(request.ignoreAccents).then(() => {
+      sendResponse({ success: true });
+    });
+    return true;
   }
 });
