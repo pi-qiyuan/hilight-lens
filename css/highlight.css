@@ -1,0 +1,13 @@
+/*
+ * 这个文件的内容会被 content.js 里的 rebuildHighlightStyles() 通过 CSSOM
+ * （sheet.insertRule / sheet.deleteRule）动态改写，用来定义每个关键词对应的
+ * ::highlight(hl-lens-N) 样式规则。
+ *
+ * 之所以单独用一个由 manifest.json 声明注入的 css 文件、而不是在 JS 里
+ * document.createElement('style') 再塞进页面 <head>，是因为：
+ * 通过 content_scripts.css 注入的样式表来自扩展本身，不受目标页面的
+ * CSP(style-src) 限制；很多企业内部系统会配置比较严格的 CSP，如果用
+ * 后一种方式，样式可能被浏览器悄悄拦截而看起来"毫无效果"。
+ *
+ * 不需要手动编辑这个文件，保持这个占位注释即可。
+ */

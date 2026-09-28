@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bannerLink.onclick = (e) => {
         e.preventDefault();
         const url = milestoneToShow === 5 
-          ? '  https://chromewebstore.google.com/detail/hilight-lens/oihedepnomkjigefdiakfikpncbccimj'
+          ? 'https://chromewebstore.google.com/detail/hilight-lens/oihedepnomkjigefdiakfikpncbccimj'
           : 'https://ko-fi.com/qiyuanyang';
         chrome.tabs.create({ url });
         Store.dismissMilestone(milestoneToShow);
